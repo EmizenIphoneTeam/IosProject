@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		895D514C20EC9B6D0058F653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895D514B20EC9B6D0058F653 /* AppDelegate.swift */; };
+		895D514E20EC9B6D0058F653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895D514D20EC9B6D0058F653 /* ViewController.swift */; };
+		895D515120EC9B6D0058F653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895D514F20EC9B6D0058F653 /* Main.storyboard */; };
+		895D515320EC9B720058F653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895D515220EC9B720058F653 /* Assets.xcassets */; };
+		895D515620EC9B720058F653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895D515420EC9B720058F653 /* LaunchScreen.storyboard */; };
+		895D516120EC9B720058F653 /* DoctorFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895D516020EC9B720058F653 /* DoctorFinderTests.swift */; };
+		895D516C20EC9B720058F653 /* DoctorFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895D516B20EC9B720058F653 /* DoctorFinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		895D515D20EC9B720058F653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 895D514020EC9B6D0058F653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 895D514720EC9B6D0058F653;
+			remoteInfo = DoctorFinder;
+		};
+		895D516820EC9B720058F653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 895D514020EC9B6D0058F653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 895D514720EC9B6D0058F653;
+			remoteInfo = DoctorFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		895D514820EC9B6D0058F653 /* DoctorFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		895D514B20EC9B6D0058F653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		895D514D20EC9B6D0058F653 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		895D515020EC9B6D0058F653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		895D515220EC9B720058F653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		895D515520EC9B720058F653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		895D515720EC9B720058F653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895D515C20EC9B720058F653 /* DoctorFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		895D516020EC9B720058F653 /* DoctorFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorFinderTests.swift; sourceTree = "<group>"; };
+		895D516220EC9B720058F653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895D516720EC9B720058F653 /* DoctorFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		895D516B20EC9B720058F653 /* DoctorFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorFinderUITests.swift; sourceTree = "<group>"; };
+		895D516D20EC9B720058F653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		895D514520EC9B6D0058F653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895D515920EC9B720058F653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895D516420EC9B720058F653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		895D513F20EC9B6D0058F653 = {
+			isa = PBXGroup;
+			children = (
+				895D514A20EC9B6D0058F653 /* DoctorFinder */,
+				895D515F20EC9B720058F653 /* DoctorFinderTests */,
+				895D516A20EC9B720058F653 /* DoctorFinderUITests */,
+				895D514920EC9B6D0058F653 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		895D514920EC9B6D0058F653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				895D514820EC9B6D0058F653 /* DoctorFinder.app */,
+				895D515C20EC9B720058F653 /* DoctorFinderTests.xctest */,
+				895D516720EC9B720058F653 /* DoctorFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		895D514A20EC9B6D0058F653 /* DoctorFinder */ = {
+			isa = PBXGroup;
+			children = (
+				895D514B20EC9B6D0058F653 /* AppDelegate.swift */,
+				895D514D20EC9B6D0058F653 /* ViewController.swift */,
+				895D514F20EC9B6D0058F653 /* Main.storyboard */,
+				895D515220EC9B720058F653 /* Assets.xcassets */,
+				895D515420EC9B720058F653 /* LaunchScreen.storyboard */,
+				895D515720EC9B720058F653 /* Info.plist */,
+			);
+			path = DoctorFinder;
+			sourceTree = "<group>";
+		};
+		895D515F20EC9B720058F653 /* DoctorFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				895D516020EC9B720058F653 /* DoctorFinderTests.swift */,
+				895D516220EC9B720058F653 /* Info.plist */,
+			);
+			path = DoctorFinderTests;
+			sourceTree = "<group>";
+		};
+		895D516A20EC9B720058F653 /* DoctorFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				895D516B20EC9B720058F653 /* DoctorFinderUITests.swift */,
+				895D516D20EC9B720058F653 /* Info.plist */,
+			);
+			path = DoctorFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		895D514720EC9B6D0058F653 /* DoctorFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895D517020EC9B720058F653 /* Build configuration list for PBXNativeTarget "DoctorFinder" */;
+			buildPhases = (
+				895D514420EC9B6D0058F653 /* Sources */,
+				895D514520EC9B6D0058F653 /* Frameworks */,
+				895D514620EC9B6D0058F653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoctorFinder;
+			productName = DoctorFinder;
+			productReference = 895D514820EC9B6D0058F653 /* DoctorFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		895D515B20EC9B720058F653 /* DoctorFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895D517320EC9B720058F653 /* Build configuration list for PBXNativeTarget "DoctorFinderTests" */;
+			buildPhases = (
+				895D515820EC9B720058F653 /* Sources */,
+				895D515920EC9B720058F653 /* Frameworks */,
+				895D515A20EC9B720058F653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895D515E20EC9B720058F653 /* PBXTargetDependency */,
+			);
+			name = DoctorFinderTests;
+			productName = DoctorFinderTests;
+			productReference = 895D515C20EC9B720058F653 /* DoctorFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		895D516620EC9B720058F653 /* DoctorFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895D517620EC9B720058F653 /* Build configuration list for PBXNativeTarget "DoctorFinderUITests" */;
+			buildPhases = (
+				895D516320EC9B720058F653 /* Sources */,
+				895D516420EC9B720058F653 /* Frameworks */,
+				895D516520EC9B720058F653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895D516920EC9B720058F653 /* PBXTargetDependency */,
+			);
+			name = DoctorFinderUITests;
+			productName = DoctorFinderUITests;
+			productReference = 895D516720EC9B720058F653 /* DoctorFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		895D514020EC9B6D0058F653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Vishnu Sharma";
+				TargetAttributes = {
+					895D514720EC9B6D0058F653 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					895D515B20EC9B720058F653 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 895D514720EC9B6D0058F653;
+					};
+					895D516620EC9B720058F653 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 895D514720EC9B6D0058F653;
+					};
+				};
+			};
+			buildConfigurationList = 895D514320EC9B6D0058F653 /* Build configuration list for PBXProject "DoctorFinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 895D513F20EC9B6D0058F653;
+			productRefGroup = 895D514920EC9B6D0058F653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				895D514720EC9B6D0058F653 /* DoctorFinder */,
+				895D515B20EC9B720058F653 /* DoctorFinderTests */,
+				895D516620EC9B720058F653 /* DoctorFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		895D514620EC9B6D0058F653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895D515620EC9B720058F653 /* LaunchScreen.storyboard in Resources */,
+				895D515320EC9B720058F653 /* Assets.xcassets in Resources */,
+				895D515120EC9B6D0058F653 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895D515A20EC9B720058F653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895D516520EC9B720058F653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		895D514420EC9B6D0058F653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895D514E20EC9B6D0058F653 /* ViewController.swift in Sources */,
+				895D514C20EC9B6D0058F653 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895D515820EC9B720058F653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895D516120EC9B720058F653 /* DoctorFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895D516320EC9B720058F653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895D516C20EC9B720058F653 /* DoctorFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		895D515E20EC9B720058F653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 895D514720EC9B6D0058F653 /* DoctorFinder */;
+			targetProxy = 895D515D20EC9B720058F653 /* PBXContainerItemProxy */;
+		};
+		895D516920EC9B720058F653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 895D514720EC9B6D0058F653 /* DoctorFinder */;
+			targetProxy = 895D516820EC9B720058F653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		895D514F20EC9B6D0058F653 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				895D515020EC9B6D0058F653 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		895D515420EC9B720058F653 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				895D515520EC9B720058F653 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		895D516E20EC9B720058F653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		895D516F20EC9B720058F653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		895D517120EC9B720058F653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55DJQPG6M9;
+				INFOPLIST_FILE = DoctorFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emizentech.DoctorFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		895D517220EC9B720058F653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55DJQPG6M9;
+				INFOPLIST_FILE = DoctorFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emizentech.DoctorFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		895D517420EC9B720058F653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55DJQPG6M9;
+				INFOPLIST_FILE = DoctorFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emizentech.DoctorFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoctorFinder.app/DoctorFinder";
+			};
+			name = Debug;
+		};
+		895D517520EC9B720058F653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55DJQPG6M9;
+				INFOPLIST_FILE = DoctorFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emizentech.DoctorFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoctorFinder.app/DoctorFinder";
+			};
+			name = Release;
+		};
+		895D517720EC9B720058F653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55DJQPG6M9;
+				INFOPLIST_FILE = DoctorFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emizentech.DoctorFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoctorFinder;
+			};
+			name = Debug;
+		};
+		895D517820EC9B720058F653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55DJQPG6M9;
+				INFOPLIST_FILE = DoctorFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emizentech.DoctorFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoctorFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		895D514320EC9B6D0058F653 /* Build configuration list for PBXProject "DoctorFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895D516E20EC9B720058F653 /* Debug */,
+				895D516F20EC9B720058F653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895D517020EC9B720058F653 /* Build configuration list for PBXNativeTarget "DoctorFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895D517120EC9B720058F653 /* Debug */,
+				895D517220EC9B720058F653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895D517320EC9B720058F653 /* Build configuration list for PBXNativeTarget "DoctorFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895D517420EC9B720058F653 /* Debug */,
+				895D517520EC9B720058F653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895D517620EC9B720058F653 /* Build configuration list for PBXNativeTarget "DoctorFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895D517720EC9B720058F653 /* Debug */,
+				895D517820EC9B720058F653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 895D514020EC9B6D0058F653 /* Project object */;
+}
