@@ -1,0 +1,6 @@
+framework module Pods_DoctorFinder {
+  umbrella header "Pods-DoctorFinder-umbrella.h"
+
+  export *
+  module * { export * }
+}
